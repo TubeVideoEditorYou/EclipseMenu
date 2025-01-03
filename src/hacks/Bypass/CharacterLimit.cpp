@@ -21,7 +21,7 @@ namespace eclipse::hacks::Bypass {
         ADD_HOOKS_DELEGATE("bypass.charlimit")
 
         void updateLabel(gd::string str) {
-            this->setMaxLabelLength(99999);
+            this->setMaxLabelLength(100);
             CCTextInputNode::updateLabel(str);
         }
     };
